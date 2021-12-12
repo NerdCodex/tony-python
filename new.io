@@ -1,0 +1,5 @@
+io.buffer.println "Hello World"
+io.buffer.println "This is My Programming language."
+io.buffer.println "I made it"
+io.buffer.println "My Name Is Rakesh"
+io.buffer.println "This Is My programming language"
