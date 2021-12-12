@@ -1,5 +1,5 @@
-# Mup - Made Using Python
+# IO
 
-Syntax:
+# Syntax:
     io.buffer.println "Hello World"  -- To Print The String
 
