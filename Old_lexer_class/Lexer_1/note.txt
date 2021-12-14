@@ -1,4 +1,4 @@
-Lexer 1
+Lexer Version 1
 
 syntax:
     io.buffer.println "Hello World"
