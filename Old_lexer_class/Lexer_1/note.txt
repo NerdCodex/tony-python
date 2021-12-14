@@ -1,0 +1,10 @@
+Lexer 1
+
+syntax:
+    io.buffer.println "Hello World"
+
+Features:
+    can Print string to the console
+
+Drawback:
+    Does not have any feature of Arithmetic Calculation.
