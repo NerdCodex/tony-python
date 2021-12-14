@@ -1,0 +1,13 @@
+Lexer Version 2:
+
+syntax:
+    io.println ("Hello World")
+    io.println ("Addition of 10 + 20 is", 10 + 20)
+    io.eval.println ('10 * 30 + 400')
+
+Features:
+    Can do Arithmetic Calculation Along With String Data Type.
+
+Drawback:
+    Unable to intemate the error to the User.
+
