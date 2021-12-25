@@ -1,1 +1,22 @@
-Lexer version 0.0.2
+Lexer Version 2:
+
+syntax:
+    io.println ("Hello World")
+    io.println ("Addition of 10 + 20 is", 10 + 20)
+    io.eval.println ('10 * 30 + 400')
+
+Features:
+    Can do Arithmetic Calculation Along With String Data Type.
+
+Drawback:
+    Unable to intemate the error to the User.
+    if we write a simple program "io.println ("Hello World")"
+    An error Arises like:
+        Traceback (most recent call last):
+        File "C:\Users\ADMIN\Desktop\IO\main.py", line 171, in <module>
+            run()
+        File "C:\Users\ADMIN\Desktop\IO\main.py", line 153, in run
+            compile_code.Compile()
+        File "C:\Users\ADMIN\Desktop\IO\Lexer.py", line 116, in Compile
+        if type(self.node[counter+1]) == str and type(self.node[counter+2]) == int or type(self.node[counter+2]) == float and self.node[counter+2] != None:
+        IndexError: list index out of range
