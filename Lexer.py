@@ -221,7 +221,7 @@ class Tokenizer:
 
 class Run:
     def __init__(self):
-        file = open('new.io', 'r').read()
+        file = open('new.tony', 'r').read()
         self.lexer = Lexer(file)
     
     def run(self):
