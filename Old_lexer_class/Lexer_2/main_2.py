@@ -3,7 +3,7 @@ from Lexer import Node
 from Lexer import Compiler
 
 def run():
-    file = open("new.io", 'r').read()
+    file = open("new.tony", 'r').read()
     runner = lexer(data=file)
     runner.tokenizer()
     node = Node(tokens=runner.tokens)
