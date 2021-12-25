@@ -3,7 +3,9 @@
 <b>(This Programming Language Is Under Development Stage)</b>
 
 # Syntax:
-    io.println ("Hello World")   ---> To Print The String.
-    io.eval.println ('10 + 20')  ---> To Do Arithmetic Calculation.
-    io.println ("Addition of 10 + 20: ", 10 + 20)   --->  To Print String And To do Arithmetic Calculation    
+    define Function{
+        io.print("Hello World")
+    }
+    
+    !Function
 
