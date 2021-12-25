@@ -1,22 +1,41 @@
-Lexer Version 2:
+Lexer Version 3:
 
 syntax:
-    io.println ("Hello World")
-    io.println ("Addition of 10 + 20 is", 10 + 20)
-    io.eval.println ('10 * 30 + 400')
+    define Function{
+        io.print("Hello World")
+    }
+    
+    !Function  --->  To Call The Function
 
 Features:
-    Can do Arithmetic Calculation Along With String Data Type.
+    We Can Create a function as Like python, java, c and c++
+    We Have introduced Error Class for "()".
+    The Error Example:
+    code:
+        define start{
+            io.print("Hello World"
+        }
+     Error:
+          Line 2
+          ')' is missing
+
 
 Drawback:
-    Unable to intemate the error to the User.
-    if we write a simple program "io.println ("Hello World")"
-    An error Arises like:
-        Traceback (most recent call last):
-        File "C:\Users\ADMIN\Desktop\IO\main.py", line 171, in <module>
-            run()
-        File "C:\Users\ADMIN\Desktop\IO\main.py", line 153, in run
-            compile_code.Compile()
-        File "C:\Users\ADMIN\Desktop\IO\Lexer.py", line 116, in Compile
-        if type(self.node[counter+1]) == str and type(self.node[counter+2]) == int or type(self.node[counter+2]) == float and self.node[counter+2] != None:
-        IndexError: list index out of range
+    We could not able to call a single function when we have more than on Function
+    Example:
+        define function{
+            io.print("Hello World")
+        }
+        
+        define printer{
+            io.print("Printing hello World")
+        }
+        
+        !printer
+        
+        Output:
+            HelloWorld
+            PrintinghelloWorld
+    
+    Note:
+        Still The Error class is not Defined for Strings and brackets
