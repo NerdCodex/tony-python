@@ -1,0 +1,12 @@
+define New{
+    io.print("Hello")
+}
+
+define Function{
+    io.eval('10 + 20')
+    io.print("Addition of 10 + 20 is")
+}
+
+Function!
+New!
+
