@@ -5,7 +5,8 @@
 # Syntax:
     define Function{
         io.print("Hello World")
+        io.eval('(6+3)/2')
     }
     
-    !Function
+    Function!
 
