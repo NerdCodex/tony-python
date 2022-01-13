@@ -1,0 +1,6 @@
+define function{
+    io.print("Hello World")
+    io.eval('10 + 20')
+}
+
+function!
