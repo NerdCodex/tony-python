@@ -1,1 +1,41 @@
-test
+Lexer Version 3:
+
+syntax:
+    define Function{
+        io.print("Hello World")
+    }
+    
+    !Function  --->  To Call The Function
+
+Features:
+    We Can Create a function as Like python, java, c and c++
+    We Have introduced Error Class for "()".
+    The Error Example:
+    code:
+        define start{
+            io.print("Hello World"
+        }
+     Error:
+          Line 2
+          ')' is missing
+
+
+Drawback:
+    We could not able to call a single function when we have more than on Function
+    Example:
+        define function{
+            io.print("Hello World")
+        }
+        
+        define printer{
+            io.print("Printing hello World")
+        }
+        
+        !printer
+        
+        Output:
+            HelloWorld
+            PrintinghelloWorld
+    
+    Note:
+        Still The Error class is not Defined for Strings and brackets
