@@ -1,4 +1,5 @@
 # Tony
+![Hydrattz-Multipurpose-Alphabet-Letter-T-blue 256](https://user-images.githubusercontent.com/81899310/236504122-9019bb7c-7f57-4e63-bdb5-4e57c2d79896.png)
 ![index](https://user-images.githubusercontent.com/81899310/143827568-fc00e7e7-cf26-4a1d-997d-6d50d3589710.png) 
 <b>(This Programming Language Is Under Development Stage)</b>
 
@@ -13,7 +14,6 @@
     Function!
  
  # Download
- <b>Linux<b>:  [Tony_windows_setup_0.0.4.tar.gz](https://github.com/programmingrakesh/tony/files/11407860/tony_linux_setup.tar.gz)
+  * <b>Linux:  [Tony_linux_setup_0.0.4.tar.gz](https://github.com/programmingrakesh/tony/files/11407860/tony_linux_setup.tar.gz)</b>
  
-# Video Link
-    https://youtu.be/uhcysqC6Dw8
+
