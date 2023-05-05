@@ -13,7 +13,7 @@
     Function!
  
  # Download
- <b>Windows<b>:  [Tony_windows_setup_0.0.4.exe]()
+ <b>Linux<b>:  [Tony_windows_setup_0.0.4.tar.gz](https://github.com/programmingrakesh/tony/files/11407860/tony_linux_setup.tar.gz)
  
 # Video Link
     https://youtu.be/uhcysqC6Dw8
