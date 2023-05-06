@@ -13,7 +13,6 @@
     
     Function!
  
- # Latest Release
-  * <b>Linux:  [Tony_linux_setup_0.0.4.tar.gz](https://github.com/programmingrakesh/tony/files/11407860/tony_linux_setup.tar.gz)</b>
+
  
 
