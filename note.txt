@@ -7,16 +7,8 @@ syntax:
     
     !Function  --->  To Call The Function
 
-Features:
-    We Can Create a function as Like python, java, c and c++
-    We Have introduced Error Class for "()".
-    The Example code:
-        define start{
-            io.print("Hello World")
-        }
 
-
-Draebacks:
+Drawbacks:
 Lexer Version 3:
 
 syntax:
